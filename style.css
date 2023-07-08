@@ -1,6 +1,6 @@
 /* Clases Generales */
 .my-btn {
-  background-color: #ff6833;
+  background-color: #fb480c;
 }
 
 .my-btn:hover {
@@ -129,8 +129,7 @@ footer {
   font-size: 2rem;
 }
 
-.number,
-.month {
+*{
   font-family: "Fraunces", serif;
   font-family: "Red Hat Display", sans-serif;
   font-family: "Work Sans", sans-serif;
@@ -142,4 +141,45 @@ footer {
 
 .month {
   font-size: 2rem;
+}
+
+
+.standard-col {
+  position: relative;
+  z-index: 1;
+  transform: scale(1.1);
+  z-index: 20;
+  background-color: #fff;
+}
+
+@media (max-width: 991px) {
+  .standard-col {
+    transform: scale(1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+} 
+
+.std-pill {
+  background-color: #dae7fb;
+  color: #4774f3;
+  font-weight: 700;
+}
+
+.premium-pill {
+  background-color: #e4ddf7;
+  color: #6f0ec9;
+  font-weight: 00;
+}
+
+.disable-icon {
+  color: #ccc;
+}
+
+.disable-letter {
+  color: #777777;
+}
+
+.tick-icon {
+  color: #00e17c;
 }
