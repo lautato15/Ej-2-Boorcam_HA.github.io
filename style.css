@@ -146,9 +146,7 @@ footer {
 
 .standard-col {
   position: relative;
-  z-index: 1;
   transform: scale(1.1);
-  z-index: 20;
   background-color: #fff;
 }
 
